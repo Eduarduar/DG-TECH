@@ -16,11 +16,11 @@
 
             <ul class="nav">
                 <li><a href="index.php">Inicio</a></li>
-                <li><a href="">Productos</a></li>
-                <li><a href="">¿Quienes somos?</a>
+                <li><a href="productos.php">Productos</a></li>
+                <li><a href="quienesSomos.php">¿Quienes somos?</a>
                     <ul>
-                        <li><a href="">Servicios</a></li>
-                        <li><a href="">Contacto</a></li>
+                        <li><a href="servicios.php">Servicios</a></li>
+                        <li><a href="contacto.php">Contacto</a></li>
                     </ul>
 
                 </li>
