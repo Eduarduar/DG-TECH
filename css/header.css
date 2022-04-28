@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #e6e6e6;
+}
+
+
+.logo {
+    width: 142px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+.barra-nav, .barra-text , .p-habitaciones{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+header {
+    background: #101010;
+    overflow: hidden;
+}
+
+header nav {
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #e6e6e6;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+
+header nav ul li a {
+    transition: 0.5s;
+    background: #101010;
+    
+}
+
+header nav ul li a:hover {
+    transition: 0.5s;
+    background: #353535;
+}
+
+.title {
+    display: inline-block;
+    font-size: 40pt;
+    margin: 20px;
+    color: #e6e6e6;
+}
+
+.blanco {
+    clear: both;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    left: 315px;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.logo{
+    width: 100px;
+    margin: 20px;
+}
