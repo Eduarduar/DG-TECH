@@ -40,9 +40,10 @@
     float: left;
     padding: 10px;
     margin: 20px;
+    margin-top: 0px;
     border: #000 solid 3px;
     border-radius: 15px;
-    width: 200px;
+    width: 220px;
     box-shadow: #6e6e6e 5px 5px;
     transition: 0.2s;
 }
@@ -70,9 +71,59 @@
 }
 
 .caja:active {
-    margin-top: 25px;
+    margin-top: 5px;
     margin-left: 25px;
     margin-right: 15px;
     margin-bottom: 0px;
     box-shadow: #6e6e6e 0px 0px;
 }
+
+.confirm {
+    overflow: hidden;
+    height: 30px;
+    
+}
+
+.Confirmacion-left {
+    border: #000 solid 2px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 40px;
+    margin-right: 18px;
+    border-radius: 5px;
+    background: rgb(0,255,0);
+    transition:1s;
+}
+
+.Confirmacion-right {
+    border: #000 solid 2px;
+    float: left;
+    margin-left: 54px;
+    margin-top: 40px;
+    margin-right: 18px;
+    border-radius: 5px;
+    background: rgb(0,255,0);
+    transition:1s;
+}
+
+.Confirmacion__active-right {
+   border: #000 solid 2px;
+    float: left;
+    margin-left: 54px;
+    margin-top: 0px;
+    margin-right: 18px;
+    border-radius: 5px;
+    background: rgb(0,255,0);
+    transition:1s;
+}
+
+.Confirmacion__active-left {
+    border: #000 solid 2px;
+     float: left;
+     margin-left: 35px;
+     margin-top: 0px;
+     margin-right: 18px;
+     border-radius: 5px;
+     background: rgb(0,255,0);
+     transition:1s;
+ }

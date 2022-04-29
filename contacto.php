@@ -60,6 +60,22 @@
 
         </div>
 
+        <div class="confirm">
+
+            <div class="Confirmacion-left" id="confirm_telefono">
+
+                <p>Se a guardado en el Portapapeles</p>
+
+            </div>
+
+            <div class="Confirmacion-right" id="confirm_correo">
+
+                <p>Se a guardado en el Portapapeles</p>
+
+            </div>
+
+        </div>
+
         <div class="contactos">
 
             <div class="caja" id="telefono" onclick="">
@@ -101,17 +117,31 @@
         const boton_Telefono = document.getElementById("telefono");
         const boton_Correo = document.getElementById("correo");
         const text_Telefono = document.getElementById("Telefono");
-        const text_Correo = document.getElementById("Correo"); 
+        const text_Correo = document.getElementById("Correo");
+        const confirm_Telefono = document.getElementById("confirm_telefono");
+        const confirm_Correo = document.getElementById("confirm_correo");
 
         boton_Telefono.addEventListener('click',function(){
             text_Telefono.select();
             text_Telefono.setSelectionRange(0,99999);
-            document.execCommand('copy')
+            document.execCommand('copy');
+            confirm_Telefono.classList.remove('Confirmacion-left');
+            confirm_Telefono.classList.add('Confirmacion__active-left');
+            setTimeout(() => {
+            confirm_Telefono.classList.remove('Confirmacion__active-left');
+            confirm_Telefono.classList.add('Confirmacion-left');
+        }, 1000);
         });
         boton_Correo.addEventListener('click',function(){
             text_Correo.select();
             text_Correo.setSelectionRange(0,99999);
-            document.execCommand('copy')
+            document.execCommand('copy');
+            confirm_Correo.classList.remove('Confirmacion-right');
+            confirm_Correo.classList.add('Confirmacion__active-right');
+            setTimeout(() => {
+            confirm_Correo.classList.remove('Confirmacion__active-right');
+            confirm_Correo.classList.add('Confirmacion-right');
+        }, 1000);
         });
     </script>
     
