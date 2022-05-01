@@ -1,0 +1,29 @@
+.puerta{
+    width: 700px;
+	display: block;
+    margin-right: 50px;
+    float: left;
+}
+
+.art1{
+	margin-top: 100px;
+	margin-left: 50px;
+    margin-right: 50px;
+	float: right;
+	display: block;
+}
+
+.prueba{
+	float: left;
+	display: block;
+
+}
+
+.art1 h1{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/*article {
+	background-color: rgb(28, 36, 52);
+}*/
