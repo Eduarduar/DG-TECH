@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <link rel="shortcut icon" href="img/Logo-icon-trasparent.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo_contacto.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/header.css">
@@ -14,7 +16,7 @@
 
     <!-- header -->
 
-    <?php include('secciones/header.php') ?>
+    <?php include('./secciones/header.php') ?>
 
     <!-- header -->
 
@@ -41,56 +43,60 @@
             
             </div>
 
-        </div> 
-
-        <div class="div-texto">
-
-            <div class="texto">
-
-                <p>Si tienes un problema puede llamar para solucionarlo lo mas proto posible y uno de nuestros trabajadores lo atenderan</p>
-
-            </div>
-
         </div>
 
-        <div class="tapar">
+        <div class="container-main">
 
-        <input class="input" id="Telefono" type="text" value="+00 123 456 7890">
-        <input class="input" id="Correo" type="text" value="CorreoFake123@Correo.com">
+            <div class="div-texto">
 
-        </div>
+                <div class="texto">
 
-        <div class="confirm">
+                    <p>Si tienes un problema puede llamar para solucionarlo lo mas proto posible y uno de nuestros trabajadores lo atenderan</p>
 
-            <div class="Confirmacion-left" id="confirm_telefono">
-
-                <p>Se a guardado en el Portapapeles</p>
+                </div>
 
             </div>
 
-            <div class="Confirmacion-right" id="confirm_correo">
+            <div class="tapar">
 
-                <p>Se a guardado en el Portapapeles</p>
-
-            </div>
-
-        </div>
-
-        <div class="contactos">
-
-            <div class="caja" id="telefono" onclick="">
-
-                <h2>Telefono</h2>
-
-                <p>+00 123 456 7890</p>
+            <input class="input" id="Telefono" type="text" value="+00 123 456 7890">
+            <input class="input" id="Correo" type="text" value="CorreoFake123@Correo.com">
 
             </div>
 
-            <div class="caja" id="correo">
+            <div class="confirmar">
 
-                <h2>Correo</h2>
+                <div class="Confirmacion-left" id="confirm_telefono">
 
-                <p>CorreoFake123@Correo.com</p>
+                    <p>Se a guardado en el Portapapeles</p>
+
+                </div>
+
+                <div class="Confirmacion-right" id="confirm_correo">
+
+                    <p>Se a guardado en el Portapapeles</p>
+
+                </div>
+
+            </div>
+
+            <div class="contactos">
+
+                <div class="caja" id="telefono" onclick="">
+
+                    <h2>Telefono</h2>
+
+                    <p>+00 123 456 7890</p>
+
+                </div>
+
+                <div class="caja" id="correo">
+
+                    <h2>Correo</h2>
+
+                    <p>CorreoFake123@Correo.com</p>
+
+                </div>
 
             </div>
 

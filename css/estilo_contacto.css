@@ -2,10 +2,15 @@
     background-image: url(../img/mapa-dark.jpg);
     background-position: center;
     z-index: 0;
-    height: 320px;
+    height: 600px;
     background-size: cover;
     clear: both;
     text-decoration: none;
+}
+
+.map-text, .container-main{
+    margin: 0px auto;
+    max-width: 1300px;
 }
 
 .map-degradado {
@@ -16,7 +21,7 @@
 .map-text h2 {
     color: #fff;
     font-size: 60px;
-    padding: 30px 0px 0px 50px;
+    padding: 75px 0px 0px 40px;
     text-decoration: none;
     user-select: none;
 }
@@ -43,7 +48,7 @@
     margin-top: 0px;
     border: #000 solid 3px;
     border-radius: 15px;
-    width: 220px;
+    width: 270px;
     box-shadow: #6e6e6e 5px 5px;
     transition: 0.2s;
 }
@@ -78,7 +83,7 @@
     box-shadow: #6e6e6e 0px 0px;
 }
 
-.confirm {
+.confirmar {
     overflow: hidden;
     height: 30px;
     
