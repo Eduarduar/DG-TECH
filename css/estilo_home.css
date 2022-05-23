@@ -1,0 +1,140 @@
+.div-map {
+    background-image: url(../img//b4520b77fe0213a80c928fc388059731.jpg);
+    background-position: center;
+    z-index: 0;
+    height: 680px;
+    background-size: cover;
+    clear: both;
+    text-decoration: none;
+}
+
+.map-degradado {
+    background: linear-gradient(#000 -25%, transparent);
+    height: 320px;
+}
+
+.map-text, .context1{
+    margin: 0px auto;
+    max-width: 1300px;
+}
+
+.map-text {
+    margin: 0px auto;
+}
+
+.map-text h2 {
+    color: #fff;
+    font-size: 60px;
+    padding: 75px 0px 0px 40px;
+    text-decoration: none;
+    user-select: none;
+}
+
+.map-text h3 {
+    font-size: 30pt;
+    color: #fff;
+    padding: 5px 0px 0px 50px;
+    text-decoration: none;
+    user-select: none;
+}
+
+.img {
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.cuadros {
+    position: relative;
+    float: left;
+    width: 300px;
+    margin: 10px auto;
+    margin-left: 10px;
+    background: #000;
+    height: 320px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.ocultar {
+    margin-top: 200px;
+}
+
+.boton-danger{
+    transition: 0.5s;
+    background: rgb(215, 0, 0);
+    color: #fff;
+    padding: 0.5em 1em;
+    border: 1px solid #000;
+    position: relative;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.boton-danger:hover {
+    transition: 0.5s;
+    position: relative;
+    background: rgb(140, 0, 0);
+    color:#fff;
+}
+
+.div-text {
+    color: #fff;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.buttons {
+    margin: 10px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.boton {
+    margin-left: 120px;
+    display: inline-block;
+}
+
+.cards {
+    overflow:overlay;
+}
+
+.cards2 {
+    overflow: overlay;
+    width: 650px;
+    margin: 0px auto;
+}
+
+.div-context1 {
+    background: rgb(32, 32, 32);
+    color: #fff;
+    font-size: 20pt;
+    height: 500px;
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+}
+
+.context1-text {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+}
+
+.image1 {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.image1 img {
+    width: 400px;
+    margin-left: 10%;
+    margin-top: 70px;
+}

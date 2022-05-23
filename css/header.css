@@ -7,62 +7,65 @@ body {
     background: #e6e6e6;
 }
 
-
-.logo {
-    width: 142px;
-    float: left;
-    margin: 0px 0px 0px 0px;
-    border-radius: 10px;
-}
-
-.barra-nav, .barra-text , .p-habitaciones{
+.container-center{
     width: 100%;
     max-width: 1300px;
     margin: 0px auto;
 }
 
 header {
-    background: #101010;
+    background: transparent;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    transition: 0.3s;
 }
 
 header nav {
-    overflow: hidden;
+    width: 650px;
+    float: right;
+    margin-top: 8px;
+    margin-right: 50px;
+    transition: 1s;
 }
 
 header nav ul {
     list-style: none;
+    float: right;
+    transition: 1s;
 }
 
 header nav ul li {
     float: left;
+    transition: 1s;
+    margin-right: 5px;
 }
 
 header nav ul li a {
-    padding: 10px 20px;
+    padding: 5px 15px;
     display: block;
     color: #e6e6e6;
     text-decoration: none;
     font-size: 14pt;
-}
-
-
-header nav ul li a {
     transition: 0.5s;
-    background: #101010;
-    
+    background: transparent;
+    border-radius: 20px;
+    transition: 1s;
 }
 
 header nav ul li a:hover {
     transition: 0.5s;
     background: #353535;
+    color: #fff;
 }
 
 .title {
     display: inline-block;
-    font-size: 40pt;
-    margin: 20px;
+    font-size: 30pt;
+    margin: 3px;
+    margin-left: 40px;
     color: #e6e6e6;
+    user-select: none;
 }
 
 .blanco {
@@ -72,22 +75,36 @@ header nav ul li a:hover {
     border: 0;
 }
 
-.nav > li {
-    float: left;
+.titleFirts {
+    display: inline-block;
 }
 
-.nav li ul {
+.lista {
     display: none;
-    position: absolute;
-    min-width: 140px;
-    left: 315px;
+    transition: 1s;
 }
 
-.nav li:hover > ul {
-    display: block;
+.lista_active {
+    display: inline-block;
+    transition: 1s;
 }
 
-.logo{
-    width: 100px;
-    margin: 20px;
+.flecha {
+    color: #fff;
+    margin-top: 7px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.flecha:hover {
+    background: #353535;
+
+}
+
+.header.active{
+    background: #323232;
 }
