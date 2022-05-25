@@ -27,18 +27,12 @@
 
             <div class="div-map">
 
-                <div class="link">
-
-                    <a href="https://www.google.com.mx/maps/place/Centro+de+Estudios+Tecnol%C3%B3gicos+Industrial+y+de+Servicios+(CETis+%2384)/@19.1278998,-104.3463999,17z/data=!3m1!4b1!4m5!3m4!1s0x8424d53e8d52fdb7:0x10ef618c917638b0!8m2!3d19.127867!4d-104.3442146" target="_blank" ></a>
-
-                </div>  
-
                 <div class="map-degradado">
                     
                     <div class="map-text">
 
-                        <b><h2>Bienbenido</h2></b>
-                        <h3>Bienbenido a DG-TECH<br> Tu pagina de confianza para comprar tu Pc.</h3>
+                        <b><h2>Bienvenido</h2></b>
+                        <h3>Bienvenido a DG-TECH<br> Tu página de confianza para comprar tu PC.</h3>
 
                     </div>
                 
@@ -52,7 +46,7 @@
 
                         <h2></h2>
 
-                        <p>Somos de las mejores tiendas virtuales para comprar los componentes de tu Pc.</p>
+                        <p>En esta página Web encontrarás los componentes necesarios para armar tu PC o puedes comprar PC ya prearmadas para un mejor desempeño en lo que tú ocupas.</p>
 
                     </div>
 
@@ -70,15 +64,16 @@
 
                 <?php
 
-                    $titulos    = ["Productos",                         "¿Quienes somos?"];
-                    $imagenes   = ["./img/choose-my-pc-mexico.jpg",     "./img/icono_de_interrogacion.png"];
-                    $text       = ["busque sus productos para su PC ",  "Informate quienes somos"];
+                    $titulos    = ["Productos",                             "¿Quieres saber quienes somos?"         ,"Contactanos"];
+                    $imagenes   = ["./img/choose-my-pc-mexico.jpg",         "./img/icono_de_interrogacion.png"      ,"./img/imagenes-para-contacto.png"];
+                    $text       = ["Busque los componentes para su PC.",    "Informate quienes somos y contactanos.","Si tienes alguna duda sobre nosotros contactanos"];
+                    $pagina     = ["./productos.php",                       "./quienesSomos.php"                    ,"./contacto.php"];
                     $x = 0;
-                    while ($x < 2){
+                    while ($x < 3){
 
                 ?>
 
-                    <div class="cuadros" method="POST">  
+                    <form class="cuadros" action="<?php echo $pagina[$x]; ?>" method="POST">  
 
                         <div class="div-img">
 
@@ -100,7 +95,7 @@
 
                         </div>
 
-                    </div>
+                    </form>
 
                 <?php
 

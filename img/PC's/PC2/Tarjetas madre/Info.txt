@@ -1,0 +1,23 @@
+Tarjeta Madre Asus PRIME A320M-K AM4
+
+ASUS Prime es la próxima evolución de la placa madre ASUS, 
+nacida de un pedigrí que se remonta a 1989. Nuestro equipo de ingenieros de 
+clase mundial se apasiona por potenciar a todos para disfrutar de los beneficios de la personalización y afinación.
+
+
+Especificaciones:
+
+Socket: AM4
+CPU max soportado: Soportados: AMD Ryzen 7th Generación A-series, Athlon x4, Ryzen de 2nd generacion, Ryzen con graficos Vega
+Chipset: AMD 320
+Soporte memoria: DDR4 3200(O.C.)/3000(O.C.)/2933(O.C.)/2800(O.C.)/2666/2400/2133 MHz Un-buffered
+Maximo de memoria soportada: 32GB
+PCI-E Gen: Gen3 x16
+M.2 Slot: 1
+Sata III: 4
+Puertos USB 2.0 (atras): 2
+Puertos USB 2.0 (frontal): 2
+Puertos USB 3.1 (atras): 4
+Puertos USB 3.0 (frontal): 1
+
+MX$1,219.58

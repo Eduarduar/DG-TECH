@@ -23,6 +23,6 @@ activador.addEventListener('click', () => {
 
 window.addEventListener('scroll', function(){
 
-    nav.classList.toggle('active', window.scrollY > 0);
+    nav.classList.toggle('active', window.scrollY > 35);
 
 });

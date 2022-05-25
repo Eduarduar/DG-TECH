@@ -52,7 +52,7 @@
     margin: 10px auto;
     margin-left: 10px;
     background: #000;
-    height: 320px;
+    height: 400px;
     transition: 0.5s;
     user-select: none;
 }
@@ -84,8 +84,9 @@
 .div-text {
     color: #fff;
     margin-left: 25px;
+    margin-top: 20px;
     margin-right: 25px;
-    height: 110px;
+    height: 170px;
     overflow: hidden;
 }
 
@@ -106,7 +107,7 @@
 
 .cards2 {
     overflow: overlay;
-    width: 650px;
+    max-width: 940px;
     margin: 0px auto;
 }
 
@@ -124,7 +125,8 @@
     width: 50%;
     height: 100%;
     float: left;
-    padding: 20px;
+    padding: 30px;
+    padding-top: 70px;
 }
 
 .image1 {
@@ -137,4 +139,11 @@
     width: 400px;
     margin-left: 10%;
     margin-top: 70px;
+}
+
+@media only screen and (max-width:900px) {
+    .cards2{
+        max-width: 100%;
+        width: 90%;
+    }
 }

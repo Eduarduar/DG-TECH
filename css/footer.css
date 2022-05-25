@@ -4,6 +4,8 @@ footer {
     float: left;
     background: #101010;
     padding-top: 40px;
+    position: absolute;
+    bottom: 0;
 }
 
 footer p {

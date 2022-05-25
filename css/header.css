@@ -3,8 +3,15 @@
     padding: 0px;
 }
 
+html {
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+}
+
 body {
     background: #e6e6e6;
+    margin-bottom: 100px;
 }
 
 .container-center{
@@ -19,6 +26,7 @@ header {
     position: fixed;
     width: 100%;
     transition: 0.3s;
+    z-index: 1;
 }
 
 header nav {
@@ -73,6 +81,7 @@ header nav ul li a:hover {
     padding: 0;
     margin: 0;
     border: 0;
+    width: 100%;
 }
 
 .titleFirts {
@@ -80,13 +89,19 @@ header nav ul li a:hover {
 }
 
 .lista {
-    display: none;
-    transition: 1s;
+    display: block;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    transition: 0.5s;
 }
 
 .lista_active {
-    display: inline-block;
-    transition: 1s;
+    display: block;
+    overflow: hidden;
+    width: 230px;
+    height: 38px;
+    transition: 0.5s;
 }
 
 .flecha {
@@ -106,5 +121,16 @@ header nav ul li a:hover {
 }
 
 .header.active{
-    background: #323232;
+    background: #202020;
+    border-bottom: 4px solid #000000;
+}
+
+body::-webkit-scrollbar {
+    background: #202020;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6e6e6e; 
+    border-radius: 5px;
 }

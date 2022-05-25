@@ -1,29 +1,38 @@
-.puerta{
-    width: 700px;
-	display: block;
-    margin-right: 50px;
-    float: left;
+.div-map {
+    background-image: url(../img/Consejos-para-decorar-una-tienda-de-tecnología-e1523026451497.webp);
+    background-position: center;
+    z-index: 0;
+    height: 700px;
+    background-size: cover;
+    clear: both;
+    text-decoration: none;
 }
 
-.art1{
-	margin-top: 100px;
-	margin-left: 50px;
-    margin-right: 50px;
-	float: right;
-	display: block;
+.map-degradado {
+    background: linear-gradient(#000 10%, transparent);
+    height: 320px;
 }
 
-.prueba{
-	float: left;
-	display: block;
-
+.map-text, .context1{
+    margin: 0px auto;
+    max-width: 1300px;
 }
 
-.art1 h1{
-	text-align: center;
-	margin-bottom: 10px;
+.map-text {
+    margin: 0px auto;
+	color: rgb(255, 255, 255);
 }
 
-/*article {
-	background-color: rgb(28, 36, 52);
-}*/
+.map-text h2 {
+    font-size: 60px;
+    padding: 100px 0px 0px 40px;
+    text-decoration: none;
+    user-select: none;
+}
+
+.map-text h3 {
+    font-size: 30pt;
+    padding: 5px 0px 0px 70px;
+    text-decoration: none;
+    user-select: none;
+}
