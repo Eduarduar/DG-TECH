@@ -36,3 +36,35 @@
     text-decoration: none;
     user-select: none;
 }
+
+.conjunto1 {
+    overflow: auto;
+    width: 100%;
+}
+
+.conjunto2 {
+    width: 50%;
+    float: left;
+}
+
+.container-subtitulo h2 {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30pt;
+}
+
+.container-conjuntos {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.container-text {
+    max-width: 700px;
+    margin: 0px auto
+}
+
+.container-text p{
+    font-size: 20pt;
+
+}

@@ -36,7 +36,7 @@
                 
                 <div class="map-text">
 
-                    <b><h2>Setup</h2></b>
+                    <b><h2>Componentes</h2></b>
                     <h3>Completa tu Setup de tus sueños con la mejor PC.</h3>
 
                 </div>

@@ -1,0 +1,175 @@
+body {
+    background: #010617;
+}
+
+
+.div-map {
+    background-image: url(../img/Pcs.jpg);
+    background-position: center;
+    z-index: 0;
+    height: 750px;
+    background-size: cover;
+    clear: both;
+    text-decoration: none;
+}
+
+.map-degradado {
+    background: linear-gradient(#000 -25%, transparent);
+    height: 320px;
+}
+
+.map-text, .context1{
+    margin: 0px auto;
+    max-width: 1300px;
+}
+
+.map-text {
+    margin: 0px auto;
+}
+
+.map-text h2 {
+    color: #fff;
+    font-size: 60px;
+    padding: 75px 0px 0px 40px;
+    text-decoration: none;
+    user-select: none;
+}
+
+.map-text h3 {
+    font-size: 30pt;
+    color: #fff;
+    padding: 5px 0px 0px 50px;
+    text-decoration: none;
+    user-select: none;
+}
+
+.center {
+    width: 100%;
+    background: #010617;
+}
+
+.container-search{
+    background: #010617;
+    height: 55px;
+}
+
+.search {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.search input{
+    background: #061c6d;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+    border: 2px solid #060c22;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13pt;
+    color: #fff;
+    float: left;
+}
+
+.container-icon_search {
+    float: left;
+}
+
+.icon-search {
+    color: #fff;
+    font-size: 17pt;
+    background: transparent;
+    padding: 4px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 13px;
+}
+
+.icon-search:hover {
+    background: #061c6d;
+}
+
+textarea:focus, input:focus, input[type]:focus {
+    border-color: rgb(0, 75, 196);
+    box-shadow: 0 1px 4px rgba(47, 23, 229, 0.075)inset, 0 0 8px rgba(0, 75, 196,0.6);
+    outline: 0 none;
+}
+
+.container-productos {
+    width: 90%;
+    height: 500px;
+    background: #020923;
+    margin: 0px auto;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+}
+
+.container-productos::-webkit-scrollbar {
+    width: 10px;
+}
+
+.container-productos::-webkit-scrollbar-thumb {
+    background: rgb(53, 46, 135);
+    border-radius: 5px;
+}
+
+.card {
+    width: 250px;
+    min-height: 250px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    background: #031247;
+    color: #fff;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.container-img {
+    margin: 0px auto;
+    width: 120px;
+    height: 100px;
+}
+
+.container-img img{
+    height: 100%;
+}
+
+.container-simple {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.container-nombre {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container-nombre h2 {
+    font-size: 15pt;
+}
+
+.container-precio p {
+    color: rgb(255, 196, 0);
+}
+
+.container-extra {
+}
+
+.container-extra h2 {
+    color: aquamarine;
+    font-size: 17pt;
+}
+
+.especificaciones {
+    margin-top: 5px;
+}
+
+.card:hover {
+    background: #04175b;
+}

@@ -57,48 +57,89 @@
 
             </div>
 
-            <div class="tapar">
+            <div class="registro">
 
-            <input class="input" id="Telefono" type="text" value="+00 123 456 7890">
-            <input class="input" id="Correo" type="text" value="CorreoFake123@Correo.com">
+                <form class="form"action="" method="POST" name="form-registro">
+
+                    <div class="container-titulo">
+                        <h1>Registro de contacto</h1>
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos" required>
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="telefono">Teléfono</label>
+                        <input type="text" name="telefono" id="telefono" placeholder="Ingrese su telefono" required>
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="correo">Correo</label>
+                        <input type="email" name="correo" id="correo" placeholder="Ingrese su correo" required>
+                    </div>
+
+                     <div class="container-button">
+                        <button class="button">Enviar</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="container-cuadros">
+
+                <div class="tapar">
+
+                    <input class="input" id="Telefono" type="text" value="+00 123 456 7890">
+                    <input class="input" id="Correo" type="text" value="CorreoFake123@Correo.com">
+
+                </div>
+
+                <div class="confirmar">
+
+                    <div class="Confirmacion-left" id="confirm_telefono">
+
+                        <p>Se a guardado en el Portapapeles</p>
+
+                    </div>
+
+                    <div class="Confirmacion-right" id="confirm_correo">
+
+                        <p>Se a guardado en el Portapapeles</p>
+
+                    </div>
+
+                </div>
+
+                <div class="contactos">
+
+                    <div class="caja" id="telefono" onclick="">
+
+                        <h2>Teléfono</h2>
+
+                        <p>+00 123 456 7890</p>
+
+                    </div>
+
+                    <div class="caja" id="correo">
+
+                        <h2>Correo</h2>
+
+                        <p>CorreoFake123@Correo.com</p>
+
+                    </div>
+
+                </div>
 
             </div>
 
-            <div class="confirmar">
-
-                <div class="Confirmacion-left" id="confirm_telefono">
-
-                    <p>Se a guardado en el Portapapeles</p>
-
-                </div>
-
-                <div class="Confirmacion-right" id="confirm_correo">
-
-                    <p>Se a guardado en el Portapapeles</p>
-
-                </div>
-
-            </div>
-
-            <div class="contactos">
-
-                <div class="caja" id="telefono" onclick="">
-
-                    <h2>Teléfono</h2>
-
-                    <p>+00 123 456 7890</p>
-
-                </div>
-
-                <div class="caja" id="correo">
-
-                    <h2>Correo</h2>
-
-                    <p>CorreoFake123@Correo.com</p>
-
-                </div>
-
-            </div>
 
         </div>
 

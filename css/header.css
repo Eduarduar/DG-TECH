@@ -30,7 +30,7 @@ header {
 }
 
 header nav {
-    width: 650px;
+    width: 750px;
     float: right;
     margin-top: 8px;
     margin-right: 50px;
@@ -99,7 +99,7 @@ header nav ul li a:hover {
 .lista_active {
     display: block;
     overflow: hidden;
-    width: 230px;
+    width: 300px;
     height: 38px;
     transition: 0.5s;
 }

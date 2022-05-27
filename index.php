@@ -64,12 +64,12 @@
 
                 <?php
 
-                    $titulos    = ["Productos",                             "¿Quieres saber quienes somos?"         ,"Contactanos"];
-                    $imagenes   = ["./img/choose-my-pc-mexico.jpg",         "./img/icono_de_interrogacion.png"      ,"./img/imagenes-para-contacto.png"];
-                    $text       = ["Busque los componentes para su PC.",    "Informate quienes somos y contactanos.","Si tienes alguna duda sobre nosotros contactanos"];
-                    $pagina     = ["./productos.php",                       "./quienesSomos.php"                    ,"./contacto.php"];
+                    $titulos    = ["Componentes", "PC's ensambladas", "¿Quieres saber quienes somos?", "Contactanos"];
+                    $imagenes   = ["./img/choose-my-pc-mexico.png", "./img/maxresdefault.png", "./img/icono_de_interrogacion.png", "./img/imagenes-para-contacto.png"];
+                    $text       = ["Busque los componentes para su PC.", "Obtengan su PC ya diseñada para su mejor rendimiento", "Informate quienes somos y contactanos.", "Si tienes alguna duda sobre nosotros contactanos"];
+                    $pagina     = ["./productos.php", "./ensabladas.php", "./quienesSomos.php", "./contacto.php"];
                     $x = 0;
-                    while ($x < 3){
+                    while ($x < 4){
 
                 ?>
 
@@ -120,7 +120,7 @@
 
         </footer>
 
-    <!-- footer -->
+        <!-- footer -->
         
     </body>
 </html>
