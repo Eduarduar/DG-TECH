@@ -158,9 +158,6 @@ textarea:focus, input:focus, input[type]:focus {
     color: rgb(255, 196, 0);
 }
 
-.container-extra {
-}
-
 .container-extra h2 {
     color: aquamarine;
     font-size: 17pt;

@@ -66,23 +66,23 @@
                     </div>
 
                     <div class="conjunto">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+                        <label for="nombre_registro">Nombre</label>
+                        <input type="text" name="nombre_registro" id="nombre_registro" placeholder="Ingrese su nombre" required>
                     </div>
 
                     <div class="conjunto">
-                        <label for="apellidos">Apellidos</label>
-                        <input type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos" required>
+                        <label for="apellidos_registro">Apellidos</label>
+                        <input type="text" name="apellidos_registro" id="apellidos_registro" placeholder="Ingrese sus apellidos" required>
                     </div>
 
                     <div class="conjunto">
-                        <label for="telefono">Teléfono</label>
-                        <input type="text" name="telefono" id="telefono" placeholder="Ingrese su telefono" required>
+                        <label for="telefono_registro">Teléfono</label>
+                        <input type="text" name="telefono_registro" id="telefono_registro" placeholder="Ingrese su telefono" required>
                     </div>
 
                     <div class="conjunto">
-                        <label for="correo">Correo</label>
-                        <input type="email" name="correo" id="correo" placeholder="Ingrese su correo" required>
+                        <label for="correo_registro">Correo</label>
+                        <input type="email" name="correo_registro" id="correo_registro" placeholder="Ingrese su correo" required>
                     </div>
 
                      <div class="container-button">
