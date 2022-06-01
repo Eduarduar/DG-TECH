@@ -16,7 +16,7 @@
                 <li><a class="activador" href="ensabladas.php">PC's ensambladas</a></li>
                 <i id="activador" class="flecha fa fa-chevron-right" aria-hidden="true"></i>
                 <div id="lista" class="lista">
-                    <li><a href="quienesSomos.php">¿Quieres somos?</a></li>
+                    <li><a href="quienesSomos.php">¿Quiénes somos?</a></li>
                     <li><a href="contacto.php">Contacto</a></li>
                 </div>
             </ul>

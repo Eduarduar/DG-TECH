@@ -30,7 +30,7 @@
                 
                 <div class="map-text">
 
-                    <b><h2>¿Quieres somos?</h2></b>
+                    <b><h2>¿Quiénes somos?</h2></b>
                     <h3>Somos DG-TECH<br>Conose DG-TECH y hacercate a nosotros.</h3>
 
                 </div>
