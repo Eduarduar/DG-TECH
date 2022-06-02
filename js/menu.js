@@ -26,3 +26,21 @@ window.addEventListener('scroll', function(){
     nav.classList.toggle('active', window.scrollY > 35);
 
 });
+
+const boton_menu = document.getElementById("boton_menu");
+const menu_responsivo = document.getElementById("menu_responsivo");
+
+var indicador2 = 0;
+
+boton_menu.addEventListener('click', () => {
+    if (indicador2 == 0){
+        indicador2 = 1;
+        menu_responsivo.classList.add("container-menu_responsive-active");
+        menu_responsivo.classList.remove("container-menu_responsive");
+    }else if (indicador2 == 1){
+        indicador2 = 0;
+        menu_responsivo.classList.add("container-menu_responsive");
+        menu_responsivo.classList.remove("container-menu_responsive-active");
+    }
+});
+

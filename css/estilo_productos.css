@@ -91,7 +91,7 @@
 
 .container-barra_search {
     margin: 0px auto;
-    width: 800px;
+    width: 90%;
 }
 
 .search {
@@ -188,4 +188,27 @@ textarea:focus, input:focus, input[type]:focus {
 .container-centrador{
     background: #091235;
     width: 100%;
+}
+
+@media only screen and (max-width:1250px) {
+
+    .container-menu_lateral {
+        float: left;
+        width: 100%;
+        height: 500px;
+    }
+
+    .container-menu_lateral ul li a {
+        padding: 2px 0px;
+        font-size: 17pt;
+    }
+
+    .container-search{
+        width: 100%;
+    }
+
+    .container-menu_productos{
+        width: 100%;
+    }
+
 }

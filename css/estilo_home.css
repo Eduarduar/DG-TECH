@@ -6,6 +6,7 @@
     background-size: cover;
     clear: both;
     text-decoration: none;
+    width: 100%;
 }
 
 .map-degradado {
@@ -114,7 +115,7 @@
 .div-context1 {
     background: rgb(32, 32, 32);
     color: #fff;
-    font-size: 20pt;
+    font-size: 2rem;
     height: 500px;
     width: 100%;
     margin: 0px;
@@ -141,9 +142,42 @@
     margin-top: 70px;
 }
 
-@media only screen and (max-width:900px) {
-    .cards2{
-        max-width: 100%;
+@media only screen and (max-width:1250px) {
+
+    .cards {
+        width: 90%;
+        margin: 0px auto;
+    }
+    .cards2 {
         width: 90%;
     }
+
+}
+
+@media only screen and (max-width:1150px) {
+
+    .cards {
+        width: 70%;
+        margin: 0px auto;
+    }
+    .cards2 {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width:984px) {
+
+    .cards {
+        width: 70%;
+        margin: 0px auto;
+    }
+    .cards2 {
+        width: 90%;
+    }
+
+    .cuadros {
+        width: 280px;
+    }
+
 }

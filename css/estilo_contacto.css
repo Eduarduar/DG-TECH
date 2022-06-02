@@ -209,3 +209,12 @@ textarea {
     max-height: 150px;
     min-height: 30px;
 }
+
+@media only screen and (max-width: 1250px){
+
+    .form {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+}

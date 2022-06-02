@@ -68,3 +68,11 @@
     font-size: 20pt;
 
 }
+
+@media only screen and (max-width: 1250px){
+
+    .conjunto2 {
+        width: 100%;
+    }
+
+}

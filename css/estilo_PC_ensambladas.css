@@ -170,3 +170,11 @@ textarea:focus, input:focus, input[type]:focus {
 .card:hover {
     background: #04175b;
 }
+
+@media only screen and (max-width: 1250px){
+
+    .container-productos {
+        width: 100%;
+    }
+
+}
