@@ -193,9 +193,7 @@ textarea:focus, input:focus, input[type]:focus {
 @media only screen and (max-width:1250px) {
 
     .container-menu_lateral {
-        float: left;
-        width: 100%;
-        height: 500px;
+        display: none;
     }
 
     .container-menu_lateral ul li a {
